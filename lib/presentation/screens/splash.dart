@@ -24,13 +24,11 @@ class _SplashState extends State<Splash> {
   Widget build(BuildContext context) {
     return  Scaffold(
       body: Container(
-        alignment: Alignment.center,
-        child: ClipOval(
-                child: Image.network(
-                 'https://www.linkpicture.com/q/photo_5226769419215162195_x.jpg', 
-                 fit: BoxFit.cover,
-                ),
-              ),
+        color: const Color(0xFF1A2902),
+        child: Image.network(
+         'https://www.linkpicture.com/q/photo1687211991.jpeg',
+         fit: BoxFit.cover,
+        ),
       )
     );
   }

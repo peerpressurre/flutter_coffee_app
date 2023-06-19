@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 // import 'package:flutter_coffee_app/presentation/screens/screen1.dart';
 // import 'package:flutter_coffee_app/presentation/screens/screen2.dart';
 import 'package:flutter_coffee_app/presentation/screens/splash.dart';
+import 'package:flutter_coffee_app/presentation/widgets/home.dart';
 // import 'package:flutter_coffee_app/presentation/widgets/home.dart';
 
 class Application extends StatelessWidget {
