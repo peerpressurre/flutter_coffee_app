@@ -31,8 +31,8 @@ class Application extends StatelessWidget {
       bodyMedium: TextStyle(fontSize: 14.0, fontFamily: 'Hind'),
     ),
   ),    
-  //  home: const Splash()
-      home: AnimatedSplashScreen(splash: const Splash(), nextScreen: const Home()),
+   home: const Splash()
+      // home: AnimatedSplashScreen(splash: const Splash(), nextScreen: const Home()),
         );
   }
 }
