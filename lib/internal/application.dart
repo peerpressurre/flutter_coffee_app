@@ -1,12 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_coffee_app/presentation/screens/screen1.dart';
-import 'package:flutter_coffee_app/presentation/screens/screen2.dart';
+import 'package:flutter_coffee_app/presentation/screens/locations.dart';
+import 'package:flutter_coffee_app/presentation/screens/menu.dart';
+import 'package:flutter_coffee_app/presentation/screens/guest.dart';
 import 'package:flutter_coffee_app/presentation/screens/splash.dart';
-// import 'package:flutter_coffee_app/presentation/screens/splash.dart';
-// import 'package:flutter_coffee_app/presentation/screens/splash.dart';
-import 'package:flutter_coffee_app/presentation/widgets/home.dart';
-import 'package:animated_splash_screen/animated_splash_screen.dart';
-import 'package:flutter_spinkit/flutter_spinkit.dart';
+import 'package:flutter_coffee_app/presentation/screens/themes.dart';
 
 class Application extends StatelessWidget {
   const Application({super.key});
@@ -14,12 +11,15 @@ class Application extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-       initialRoute: '/',
-  routes: {
-    // When navigating to the "/second" route, build the SecondScreen widget.
-    '/screen1': (context) => const Screen1(),
-    '/screen2': (context) => const Screen2(),
-  },
+  //      initialRoute: '/',
+  // routes: {
+  //   // When navigating to the "/second" route, build the SecondScreen widget.
+  //   '/menu': (context) => const Menu(),
+  //   '/guest': (context) => const Guest(),
+  //   '/locations': (context) => const Locations(),
+  //   '/themes': (context) => const Themes(),
+
+  // },
       debugShowCheckedModeBanner: false,
       title: 'Personal Info',
       theme: ThemeData(

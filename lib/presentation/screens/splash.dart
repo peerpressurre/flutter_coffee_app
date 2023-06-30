@@ -44,41 +44,6 @@ Widget build(BuildContext context) {
           ],
         ),
       ),
-
-
-
-
-          // mainAxisAlignment: MainAxisAlignment.center,
-          // children:[
-          //   Row(
-          //    mainAxisAlignment: MainAxisAlignment.center,
-          //     children: [
-          //       Container(
-          //           // padding: const EdgeInsetsDirectional.only(top: 125),
-          //           alignment: Alignment.topCenter,
-          //           child: Image.network(
-          //             'https://www.linkpicture.com/q/unnamed_18.jpg',
-          //              width: 300,
-          //             height: 300,
-          //           )),
-          //     ],
-          //   ),
-          //   Row(
-          //     mainAxisAlignment: MainAxisAlignment.center,
-          //     children: [
-          //       Align(
-          //         // alignment: Alignment.center,
-          //         child: Padding(
-          //           padding: const EdgeInsets.only(top: 25),
-          //           child: SpinKitCircle(
-          //             size: 75,
-          //             color: Colors.teal[200],
-          //           ),
-          //         ),
-          //       ),
-          //     ],
-          //   )
-          // ],
         )
   );
   }
