@@ -11,15 +11,15 @@ class Application extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-  //      initialRoute: '/',
-  // routes: {
-  //   // When navigating to the "/second" route, build the SecondScreen widget.
-  //   '/menu': (context) => const Menu(),
-  //   '/guest': (context) => const Guest(),
-  //   '/locations': (context) => const Locations(),
-  //   '/themes': (context) => const Themes(),
+       initialRoute: '/',
+  routes: {
+    // When navigating to the "/second" route, build the SecondScreen widget.
+    '/menu': (context) => const Menu(),
+    '/guest': (context) => const Guest(),
+    '/locations': (context) => const Locations(),
+    '/themes': (context) => const Themes(),
 
-  // },
+  },
       debugShowCheckedModeBanner: false,
       title: 'Personal Info',
       theme: ThemeData(

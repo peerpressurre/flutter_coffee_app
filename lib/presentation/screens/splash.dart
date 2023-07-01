@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_coffee_app/presentation/widgets/home.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 
+//142218 715141 79225 251521 211 
+
 class Splash extends StatefulWidget {
 const Splash({Key? key}) : super(key: key);
   @override
